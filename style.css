@@ -1,6 +1,7 @@
 * {
     margin: 0;
-    background-color: rgb(0, 0, 0, 0.99);
+    /* background-color: rgb(0, 0, 0, 0.99); */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -11,7 +12,8 @@ nav {
 
 #netflix-icon {
     width: 14rem;
-    height: 8rem;
+    height: 8rem; 
+    background-color: rgb(0, 0, 0, 0.01);
 }
 
 #dropdown-signup-btn-container {
@@ -44,6 +46,7 @@ nav {
     background-color: red;
     color: aliceblue;
     border-radius: 0.3rem;
+    border: none;
 }
 
 #sign-up-btn:hover {
@@ -54,7 +57,7 @@ nav {
 
 #main-heading {
     color: aliceblue;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 #main-container {
@@ -75,4 +78,54 @@ nav {
     color: aliceblue;
     margin-top: 1rem;
     font-size: 1.5rem;
+}
+
+#email-btn-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+#email-input {
+    background-color: rgb(196, 196, 248, 0.3);
+    width: 20rem;
+    height: 3rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    border-radius: 0.3rem;
+    color: aliceblue;
+    border: 0.05rem solid;
+    border-color: aqua;
+}
+
+#getstarted-btn {
+    background-color: red;
+    width: 13rem;
+    height: 3.35rem;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    /* padding-inline: 2rem; */
+    border: none;
+}
+
+#getstarted-btn[placeholder] {
+    color: red;
+}
+
+#getstarted-btn i {
+    background-color: red;
+}
+
+#getstarted-btn:hover {
+    background-color: rgb(255, 0, 0, 0.9);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+#container {
+    height: 100vh;
+    background-image: url("Untitled\ design\ \(2\).png");
 }
