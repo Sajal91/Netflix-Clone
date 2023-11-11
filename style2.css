@@ -1,0 +1,115 @@
+/* Media Query for Mobile view */
+
+@media (max-width: 320px ) {
+    * {
+        margin: 0.05rem;
+    }
+    body {
+        background-color: rgb(249, 82, 82);
+    }
+    #container {
+        height: 60vh;
+        background-image: url("Untitled\ design\ \(2\).png");
+        background-size: cover;
+        width: auto;
+    }
+    #main-container {
+        height: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #sub-heading {
+        margin-top: 1rem;
+        color: aliceblue;
+        font-size: 0.6rem;
+    }
+    #email-heading {
+        color: aliceblue;
+        margin-top: 1rem;
+        font-size: 0.5rem;
+    }
+    #main-heading {
+        color: aliceblue;
+        font-size: 0.7rem;
+        margin-top: 0.3rem;
+        padding-inline: 0.5rem;
+    }
+    #main-container {
+        margin-top: 9rem;
+    }
+    #dropdown-signup-btn-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        padding-right: 1%;
+    }
+    #netflix-icon {
+        width: 10rem;
+        height: 7rem; 
+        background-color: rgb(0, 0, 0, 0.01);
+    }
+    #netflix-icon-container {
+        padding-left: 1%;
+    }
+    #language-dropdown {
+        margin-right: 1rem;
+        width: 7rem;
+        height: 2rem;
+        font-weight: 700;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 0.3rem;
+        background-color: black;
+        color: aliceblue;
+        align-self: center;
+    }
+    #sign-up-btn {
+        margin-top: 1rem;
+        width: 7rem;
+        height: 2rem;
+        font-weight: 500;
+        font-size: 1rem;
+        background-color: red;
+        color: aliceblue;
+        border-radius: 0.3rem;
+        border: none;
+        align-self: flex-start;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: -2rem;
+    }
+    #email-input {
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 16rem;
+        height: 2rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        border-radius: 0.3rem;
+        color: aliceblue;
+        border: 0.05rem solid;
+        border-color: aqua;
+    }
+    #email-btn-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    #getstarted-btn {
+        background-color: red;
+        width: 10rem;
+        height: 3.35rem;
+        color: aliceblue;
+        font-weight: 600;
+        font-size: 1.2rem;
+        border-radius: 0.3rem;
+        border: none;
+        align-self: center;
+    }
+}
