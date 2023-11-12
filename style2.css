@@ -1,6 +1,6 @@
 /* Media Query for Mobile view */
 
-@media (max-width: 360px ) {
+@media (max-width: 660px ) {
     * {
         margin: 0.05rem;
     }
