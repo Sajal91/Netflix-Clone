@@ -73,34 +73,33 @@ nav {
     font-size: 1.3rem;
 }
 
-#email-heading {
+#email-heading, #email-heading-2 {
     color: aliceblue;
     margin-top: 1rem;
     font-size: 1.5rem;
 }
 
-#email-btn-container {
+#email-btn-container, #email-btn-container-2 {
     display: flex;
     flex-direction: row;
     margin-top: 3rem;
 }
 
-#email-input {
+#email-input, #email-input-2 {
     height: 3.7rem;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0.3rem;
-    font-size: 1.5rem;
     padding-left: 1rem;
     border: rgba(255, 255, 255, 0.1);
     color: aliceblue;
     font-size: 1.2rem;
 }
 
-#email-input:focus {
+#email-input:focus, #email-input-2:focus {
     outline: none;
 }
 
-#getstarted-btn {
+#getstarted-btn, #getstarted-btn-2 {
     background-color: red;
     width: 13rem;
     height: 3.9rem;
@@ -111,11 +110,11 @@ nav {
     border: none;
 }
 
-#getstarted-btn i {
+#getstarted-btn i, #getstarted-btn-2 i {
     background-color: red;
 }
 
-#getstarted-btn:hover {
+#getstarted-btn:hover, #getstarted-btn-2:hover {
     background-color: rgb(255, 0, 0, 0.9);
     transition-duration: 0.3s;
     cursor: pointer;
@@ -127,21 +126,21 @@ nav {
     background-size: cover;
 }
 
-#email-box {
+#email-box, #email-box-2 {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.1);
-    width: 18rem;
+    width: 25rem;
     height: 3.8rem;
     margin-right: 1rem;
     /* padding-left: 1rem; */
     border-radius: 0.3rem;
     color: aliceblue;
     border: 0.05rem solid;
-    border-color: aqua;
+    border-color: rgb(3, 255, 3);
 }
 
-#email-placeholder {
+#email-placeholder, #email-placeholder-2 {
     padding-left: 1rem;
     display: none;
     border: none;
@@ -182,6 +181,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: black;
     color: aliceblue;
 }
@@ -238,4 +238,9 @@ nav {
     padding-inline: 1rem;
     padding-block: 0.6rem;
     font-size: 1.7rem;
+}
+
+#getstarted-btn-2 {
+    padding-left: 1.4rem;
+    width: 13.5rem;
 }
