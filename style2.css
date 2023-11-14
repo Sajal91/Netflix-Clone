@@ -4,40 +4,42 @@
     #container {
         width: 50rem;
         text-align: center;
+        height: 80vh;
     }
     #page-2 {
         width: 50rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 130vh;
+        height: 90vh;
     }
     #page-3 {
         width: 50rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 130vh;
+        height: 90vh;
     }
     #page-4 {
         width: 50rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 130vh;
+        height: 90vh;
     }
     #page-5 {
         width: 50rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 130vh;
+        height: 90vh;
     }
     #page-6 {
         width: 50rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 130vh;
+        align-items: center;
+        height: 90vh;
     }
 }
