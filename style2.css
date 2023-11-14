@@ -40,6 +40,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        /* height: 100vh; */
+    }
+    #page-2-text-area, #page-3-text-area, #page-4-text-area, #page-5-text-area {
+        text-align: center;
+    }
+    #page-6-question-1,
+    #page-6-question-2,
+    #page-6-question-3,
+    #page-6-question-4,
+    #page-6-question-5,
+    #page-6-question-6 {
+        height: 6.5rem;
     }
 }
