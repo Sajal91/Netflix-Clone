@@ -152,7 +152,7 @@ nav {
 /* email-box height: 2.85rem; */
 /* email-input height: 2.85rem; */
 
-#page-2, #page-3 {
+#page-2, #page-3, #page-4, #page-5 {
     height: 75vh;
     background-color: black;
     display: flex;
@@ -162,12 +162,65 @@ nav {
     border-top: 0.7rem solid rgba(128,128,128,0.4);
 }
 
-#page-2-text-area-main-heading, #page-3-text-area-main-heading {
+#page-2-text-area-main-heading, #page-3-text-area-main-heading, #page-4-text-area-main-heading, #page-5-text-area-main-heading {
     margin-bottom: 1rem;
     font-size: 3rem;
 }
 
-#page-2-text-area, #page-3-text-area {
+#page-2-text-area, #page-3-text-area, #page-4-text-area, #page-5-text-area {
     color: aliceblue;
     width: 40rem;
+}
+
+#page-2-text-area-sub-heading, #page-3-text-area-sub-heading, #page-4-text-area-sub-heading, #page-5-text-area-sub-heading {
+    font-size: 1.7rem;
+}
+
+#page-6 {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+#page-6-main-heading {
+    font-size: 3rem;
+}
+
+#page-6-question-1 {
+    margin-top: 2rem;
+}
+
+#page-6-question-1,
+#page-6-question-2,
+#page-6-question-3,
+#page-6-question-4,
+#page-6-question-5,
+#page-6-question-6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    height: 5.3rem;
+    background-color: rgba(128,128,128,0.4);
+    margin-bottom: 0.5rem;
+    padding-left: 2rem;
+    font-size: 1.7rem;
+}
+
+#page-6-question-1:hover,
+#page-6-question-2:hover,
+#page-6-question-3:hover,
+#page-6-question-4:hover,
+#page-6-question-5:hover,
+#page-6-question-6:hover {
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: rgba(128,128,128,0.7);
+}
+
+#page-6 i {
+    padding-right: 2rem;
 }
