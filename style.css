@@ -159,7 +159,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-top: 0.7rem solid rgba(128,128,128,0.4);
+    border-top: 0.5rem solid rgba(128,128,128,0.4);
 }
 
 #page-2-text-area-main-heading, #page-3-text-area-main-heading, #page-4-text-area-main-heading, #page-5-text-area-main-heading {
@@ -177,7 +177,8 @@ nav {
 }
 
 #page-6 {
-    height: 120vh;
+    padding-top: 4rem;
+    border-top: 0.5rem solid rgba(128,128,128,0.4);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -223,4 +224,18 @@ nav {
 
 #page-6 i {
     padding-right: 2rem;
+}
+
+#page-6-ans-1,
+#page-6-ans-2,
+#page-6-ans-3,
+#page-6-ans-4,
+#page-6-ans-5,
+#page-6-ans-6 {
+    width: 75%;
+    background-color: rgba(128,128,128,0.4);
+    margin-bottom: 0.9rem;
+    padding-inline: 1rem;
+    padding-block: 0.6rem;
+    font-size: 1.7rem;
 }
