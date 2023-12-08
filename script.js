@@ -7,6 +7,7 @@ let icon2 = document.querySelector('#lessthanicon-2');
 let emailInput2 = document.querySelector('#email-input-2');
 let emailPlaceholder2 = document.querySelector('#email-placeholder-2');
 let body = document.querySelector('body');
+let mainHeading = document.querySelector('#netflix-main-heading');
 
 let ques1 = document.querySelector('#page-6-question-1');
 let ques2 = document.querySelector('#page-6-question-2');
@@ -35,8 +36,6 @@ let ans4 = document.createElement('div');
 let ans5 = document.createElement('div');
 let ans6 = document.createElement('div');
 let a = 0, b = 0, c = 0, d = 0, e = 0, f = 0;
-
-console.dir(emailInput);
 
 let styling = function () {
     icon.style.backgroundColor = "rgb(255, 0, 0, 0.1)";
@@ -196,3 +195,15 @@ ques3.addEventListener('click',ques3Ans);
 ques4.addEventListener('click',ques4Ans);
 ques5.addEventListener('click',ques5Ans);
 ques6.addEventListener('click',ques6Ans);
+
+let delay = 500;
+
+let string = mainHeading.innerText;
+mainHeading.innerText = '';
+
+for (let i = 0; i<string.length; i++) {
+    delay = delay+100;
+    setTimeout(()=>{
+        mainHeading.innerHTML = mainHeading.innerHTML + string[i];
+    },delay);
+};
