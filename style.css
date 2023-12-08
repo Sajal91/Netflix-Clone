@@ -10,9 +10,11 @@ nav {
 }
 
 #netflix-icon {
-    width: 14rem;
-    height: 8rem; 
-    background-color: rgb(0, 0, 0, 0.01);
+    width: 9rem;
+    height: 5rem;
+    background: none;
+    color: red;
+    fill: currentColor;
 }
 
 #dropdown-signup-btn-container {
@@ -55,8 +57,10 @@ nav {
 }
 
 #main-heading {
+    margin-top: 5rem;
     color: aliceblue;
     font-size: 1.7rem;
+    text-align: center;
 }
 
 #main-container {
@@ -71,12 +75,14 @@ nav {
     margin-top: 1rem;
     color: aliceblue;
     font-size: 1.3rem;
+    text-align: center;
 }
 
 #email-heading, #email-heading-2 {
     color: aliceblue;
     margin-top: 1rem;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 #email-btn-container, #email-btn-container-2 {
@@ -243,4 +249,20 @@ nav {
 #getstarted-btn-2 {
     padding-left: 1.4rem;
     width: 13.5rem;
+}
+
+#page-4-image-area{
+    position: relative;
+}
+
+#page-4-image-area video {
+    position: absolute;
+    bottom: 217px;
+    right: 124px;
+    width: 25rem;
+    opacity: 0.3;
+}
+
+#page-4-image-area img {
+    opacity: 1;
 }

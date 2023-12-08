@@ -40,7 +40,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* height: 100vh; */
     }
     #page-2-text-area, #page-3-text-area, #page-4-text-area, #page-5-text-area {
         text-align: center;
