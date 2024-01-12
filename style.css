@@ -265,4 +265,5 @@ nav {
 
 #page-4-image-area img {
     opacity: 1;
+    position: relative;
 }
